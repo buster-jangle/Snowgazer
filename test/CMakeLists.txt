@@ -2,13 +2,13 @@ cmake_minimum_required (VERSION 3.0.0)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/bin) # put compiled executable in bin/
 
-##### Link to the core PROGENY_PROJECT_NAME project library.
+##### Link to the core Snowgazer project library.
 if(LINK_SHARED_LIBS)
-    list(APPEND LINK_TESTS_LIST PROGENY_PROJECT_NAME) # Link the application to a shared version of the library
-    message(STATUS "Linking application to shared library: PROGENY_PROJECT_NAME")
+    list(APPEND LINK_TESTS_LIST Snowgazer) # Link the application to a shared version of the library
+    message(STATUS "Linking application to shared library: Snowgazer")
 else()
-    list(APPEND LINK_TESTS_LIST PROGENY_PROJECT_NAME-static) # Link the application to a static version of the library
-    message(STATUS "Linking application to static library: PROGENY_PROJECT_NAME-static")
+    list(APPEND LINK_TESTS_LIST Snowgazer-static) # Link the application to a static version of the library
+    message(STATUS "Linking application to static library: Snowgazer-static")
 endif()
 message(STATUS "Linking tests libs:")
 foreach(lib ${LINK_TESTS_LIST})

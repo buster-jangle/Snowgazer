@@ -1,5 +1,5 @@
 
-<h1 style="font-size: 24;" align="center"> PROGENY_PROJECT_NAME </h1>
+<h1 style="font-size: 24;" align="center"> Snowgazer </h1>
 
 <p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/DNA_icon.svg" alt="dna_icon.svg" width="100"/></p>
 
@@ -34,7 +34,7 @@ Template includes the following:
 * Click "Use this template" to create your new repo, and give it a name. 
 * Clone the repo to a local directory
 * Run `progeny.sh` to initialize the new project. This will automatically perform the following:
-  * Replace all occurences of "PROGENY_PROJECT_NAME" with your new project name.
+  * Replace all occurences of "Snowgazer" with your new project name.
   * Add a creation date to template files with the current date
   * Reset the git repo
   * delete `progeny.sh`
@@ -70,7 +70,7 @@ PROGENY includes two example test file. `tests/CMakeLists.txt` will include any 
 
 ## Release packages
 
-PROGENY's top-level CmakeLists.txt includes a basic example of using CPack to generate release packages. Release packages inherit their version number from the PROGENY_PROJECT_NAME_VERSION variables.
+PROGENY's top-level CmakeLists.txt includes a basic example of using CPack to generate release packages. Release packages inherit their version number from the Snowgazer_VERSION variables.
 
 * Generate a compressed sourcecode package: `make package_source` or `ninja package_source`
 
@@ -118,7 +118,7 @@ Functional example API reference: https://buster-jangle.github.io/PROGENY/
 
 Template API reference as a hyperlink (replace "buster-jangle" with your username){Note: Bold hyperlinks are broken in Doxygen}: 
 
-[PROGENY_PROJECT_NAME API Reference](https://buster-jangle.github.io/PROGENY_PROJECT_NAME/)
+[Snowgazer API Reference](https://buster-jangle.github.io/Snowgazer/)
 
 ## License
 

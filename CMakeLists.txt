@@ -1,9 +1,9 @@
 
 #cmake_minimum_required (VERSION 2.8.13)
-#project("PROGENY_PROJECT_NAME")
+#project("Snowgazer")
 cmake_minimum_required (VERSION 3.0.0)
 #Set your project name and verison here
-project("PROGENY_PROJECT_NAME"
+project("Snowgazer"
         VERSION 1.0.1
         LANGUAGES CXX
         DESCRIPTION "Put a one-liner description of your project here, and it will be included in documentation"
